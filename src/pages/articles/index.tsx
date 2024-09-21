@@ -12,12 +12,12 @@ const ArticlePage = ({ articles }: ArticlesPageProps) => {
   return (
     <Seo
       metaTitle={
-        `Sammi | ${t("article_page_title", { ns: "seo" })}` ||
-        "Sammi | Articles"
+        `UTech | ${t("article_page_title", { ns: "seo" })}` ||
+        "UTech | Articles"
       }
       metaDescription={
-        `Sammi | ${t("article_page_description", { ns: "seo" })}` ||
-        "Useful articles of sammi"
+        `UTech | ${t("article_page_description", { ns: "seo" })}` ||
+        "Useful articles of UTech"
       }
     >
       <ArticlePageComponent artciles={articles} />
